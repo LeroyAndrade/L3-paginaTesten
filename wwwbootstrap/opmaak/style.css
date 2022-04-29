@@ -1,0 +1,38 @@
+:root{
+  --widthDocument: 94vw;
+  --colorWhite: #ffffff;
+  --colorMainBlack: #444444;
+}
+
+body {
+  background-color: #e5e5e5;
+  margin-top: 20px;
+  padding: 0 1vw!important;
+
+/*  del*/
+  height: 150vh;
+}
+
+#headerBackground{
+  background-color: #e3e3e3;
+}
+
+.top > div{
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.hamburgerButton{
+  width: 3em;
+  color: var(--colorWhite);
+}
+
+/*@media only screen and (max-width: 600px) {*/
+/*  body {*/
+/*  }*/
+
+/*  header{*/
+/*    display:grid;*/
+/*    grid-template-columns: 1fr;*/
+/*  }*/
+/*}*/
